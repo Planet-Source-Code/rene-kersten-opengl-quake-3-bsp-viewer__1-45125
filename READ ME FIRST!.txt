@@ -1,0 +1,19 @@
+This is the readme file for the opengl vb quake 3 bsp viewer.
+
+little info: I created this code back in october 2002 cause i was bored and needed a challenge.. i just kept adding stuff as i went along, hence the code is not really well-structured nor commented (maybe i'll upload a commented version later, i'll have to see about that one). some things that need changing: opengl + vb = bad, it should use dx8 and vertexbuffers instead. Also the shader management is reaaaly nasty and not implemented correctly. The console doesn't work well either in compiled mode and needs some enhancements too.
+
+If anybody would like to improve this code or needs any info about how parts work etc.. don't hesitate to email me at renegaa@hotmail.com
+
+To run this code you will need:
+-a fast computer
+-quake3 demo/full version
+
+unzip all source into one directory, then go to the quake3 demo/full version and extract the contents of the pak files (use winzip, it's just a renamed zip file) into the same directory where you put the sourcefiles or bin. Then you just run the code or the bin.
+
+DISCLAIMER! this code is by no means bug free, nor well commented... use this code at your own risk!
+
+thanks to: Wbuffer for his opengl framework, eric coleman for his help on the bezier patches and lupin for his help with various stuff and last but not least, ID software for making the demo which i used to test and develop this app with.
+
+this source code is copyrighted by rene kersten, if anybody would like to use this code or parts of this code in a game then be sure to tell me :-) (my email adress is: renegaa@hotmail.com)
+
+-Rene Kersten
